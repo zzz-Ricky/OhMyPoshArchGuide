@@ -1,6 +1,8 @@
 # OhMyPoshArchGuide
 
-Hello, this is a short (unofficial) guide to installing [oh-my-posh](https://ohmyposh.dev/) on Arch Linux and Arch-like systems such as EndeavourOS. This guide assumes the user is using some version of KDE Konsole as their terminal emulator.
+Hello, this is a short and casual (unofficial) guide to installing [oh-my-posh](https://ohmyposh.dev/) on Arch Linux and Arch-like systems such as EndeavourOS. This guide assumes the user is using some version of KDE Konsole as their terminal emulator.
+
+![Demonstration Image](https://github.com/zzz-Ricky/OhMyPoshArchGuide/blob/main/Images/Screenshot_20250111_153546.png?raw=true)
 
 *(Tested on EndeavourOS, KDE Plasma 6.2.5 with [KDE Rounded Corners](https://github.com/matinlotfali/KDE-Rounded-Corners), [ForceBlur](https://github.com/taj-ny/kwin-effects-forceblur), and [Kröhnkite](https://github.com/esjeon/krohnkite).)*
 
@@ -30,14 +32,15 @@ oh-my-posh
 
 If the installation was successful, you should see output similar to the following screenshot:
 
-*(Placeholder for screenshot)*
+![Example of successful installation output](https://github.com/zzz-Ricky/OhMyPoshArchGuide/blob/main/Images/Screenshot_20250111_155306.png?raw=true)
+The more observant amoung you may notice that I already have oh-my-posh installed. To prevent the possibility of time travel paradoxes, please disregard the console decorations and focus on the text.
 
 ### Modifying `.bashrc`
 
 The `.bashrc` file is a hidden script that automatically executes whenever you log in or start a new terminal session. We will add a command to this file to start Oh My Posh on terminal launch.
 
 1. Locate the `.bashrc` file in your home directory (e.g., `/home/{username}/.bashrc`).
-   - Use a graphical file manager like Dolphin to find this file. *(Placeholder for screenshot of Dolphin showing `.bashrc`)*
+   - Use a graphical file manager like Dolphin to find this file. ![.bashrc located using dolphin](https://github.com/zzz-Ricky/OhMyPoshArchGuide/blob/main/Images/Screenshot_20250111_160356.png?raw=true)
    - You can also edit it directly in the terminal using a text editor like Nano:
 
    ```bash
@@ -76,7 +79,9 @@ sudo pacman -Syu ttf-sourcecodepro-nerd
 2. Select a font patched with Nerd Font support (e.g., Source Code Pro Nerd Font).
 3. Save and apply your changes.
 
-*(Placeholder for screenshots showing these steps)*
+![Step1](https://github.com/zzz-Ricky/OhMyPoshArchGuide/blob/main/Images/Screenshot_20250111_161737.png?raw=true)
+![Step2](https://github.com/zzz-Ricky/OhMyPoshArchGuide/blob/main/Images/Screenshot_20250111_161757.png?raw=true)
+![Step3](https://github.com/zzz-Ricky/OhMyPoshArchGuide/blob/main/Images/Screenshot_20250111_161823.png?raw=true)
 
 ### Conclusion
 
